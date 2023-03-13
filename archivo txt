@@ -1,0 +1,9 @@
+# Creando el archivo
+
+#f = open ("Archivos\\Texto_prueba.txt",'x')
+
+# Escribiendo en el archivo
+
+f = open ("Archivos\\Texto_prueba.txt",'a')
+f.write("Persona\nGonzalo Garcia")
+f.close()
